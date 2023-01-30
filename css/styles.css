@@ -173,7 +173,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -24px;
+  bottom: -28px;
   width: 100%;
   height: 4px;
   background-color: var(--blue-two);
@@ -385,7 +385,7 @@ body {
 .portfolio-item {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
-.portfolio-item:is(:hover, :focus) .portfolio-top-text {
+.portfolio-link:is(:hover, :focus) .portfolio-top-text {
   transform: translateY(0%);
 }
 
